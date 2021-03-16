@@ -29,7 +29,7 @@ class MainScreen extends StatelessWidget {
               color: theme.secondaryHeaderColor,
               onPressed: () => RandomColorScreen.show(context),
               child: Text(
-                'Surprise me with one!!',
+                'Surprise me with one!',
                 style: TextStyle(color: theme.primaryColor),
               ),
             ),
